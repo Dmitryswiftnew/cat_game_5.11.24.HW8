@@ -15,8 +15,8 @@ class ViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         cycleButton.frame = CGRect( // задаем размеры и начальные координаты для кружка
-            x: 100,
-            y: 100,
+            x: 120,
+            y: 120,
             width: 80,
             height: 80)
         cycleButton.backgroundColor = randomColor() // сразу меняем на рандомный цвет
